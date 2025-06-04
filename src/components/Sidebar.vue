@@ -4,7 +4,7 @@ import { ref } from "vue";
 // Define navigation items with Bootstrap icons
 const navItems = ref([
   { name: "Dashboard", path: "/", icon: "bi-house-fill" },
-  { name: "Bookings", path: "/about", icon: "bi-calendar-check" },
+  { name: "Bookings", path: "/bookings", icon: "bi-calendar-check" },
   { name: "Events", path: "/events", icon: "bi-flag" },
 ]);
 </script>
