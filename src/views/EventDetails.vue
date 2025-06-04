@@ -10,7 +10,6 @@ const router = useRouter();
 const API_BASE_URL =
   "https://eventservice01-hugcdba0e9g5ewbk.swedencentral-01.azurewebsites.net";
 
-// Event data
 const event = ref(null);
 const isLoading = ref(false);
 const error = ref(null);
