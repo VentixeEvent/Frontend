@@ -2,7 +2,7 @@
 import { ref, onMounted } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
-import VenueSvg from "@/assets/venue.svg"; // Adjust the path as necessary
+import VenueSvg from "@/assets/venue.svg";
 
 const route = useRoute();
 const router = useRouter();
