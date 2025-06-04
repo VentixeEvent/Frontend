@@ -39,7 +39,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_HAPPY_DESERT_084425103 }}
           action: "upload"
           ###### Repository/Build Configurations ######
-          app_location: "/Frontend" # ✅ Point to your source code directory
+          app_location: "/" # ✅ Point to your source code directory
           api_location: "" # Api source code path - optional
           output_location: "dist" # ✅ Built app content directory (relative to app_location)
           github_id_token: ${{ steps.idtoken.outputs.result }}
